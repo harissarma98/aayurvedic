@@ -42,7 +42,7 @@ import Routing from './components/Routing';
 
         <div>
          <Switch>
-          <Route exact path='/Home' component={Home} />
+          <Route exact path='/' component={Home} />
           <Route path='/Doctors' component={Doctors} />
           <Route path='/Contact' component={Contact} />
           <Route path='/Products' component={Products} />
